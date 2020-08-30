@@ -12,7 +12,7 @@ public class Solution {
         StringBuilder sb = new StringBuilder();
         while (n > 0) {
             sb.append(n % 2);
-            n /= 21;
+            n /= 2;
         }
         return (int) Long.parseLong(sb.toString(), 2) << (32 - sb.toString().length());
     }
