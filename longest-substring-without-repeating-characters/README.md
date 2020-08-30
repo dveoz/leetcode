@@ -27,3 +27,11 @@ Explanation: The answer is "wke", with the length of 3.
              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 ```
 
+**Example 4:**
+
+```
+Input: "dvdf"
+Output: 3
+Explanation: The answer is "vdf", with the length of 3.
+```
+
