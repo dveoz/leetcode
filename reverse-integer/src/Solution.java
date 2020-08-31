@@ -14,4 +14,13 @@ class Solution {
             return 0;
         }
     }
+
+    public int reverseInt(int x) {
+        long reverseNum = 0;
+        while (Math.abs(x) > 0) {
+            reverseNum = reverseNum * 10 + x % 10;
+            x /= 10;
+        }
+        return Math.abs(reverseNum) > Integer.MAX_VALUE ? 0 : (int) reverseNum;
+    }
 }
